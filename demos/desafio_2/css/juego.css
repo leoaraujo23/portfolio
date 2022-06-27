@@ -1,0 +1,118 @@
+h1 {
+    position: absolute;
+    height: 48px;
+    width: 299px;
+    left: 376px;
+    top: 56px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+}
+
+.padre {
+    display: flex;
+
+}
+
+.bxs-alarm-exclamation {
+    margin-top: 430px;
+    margin-left: 310px;
+    display: inline;
+}
+
+.maximopad {
+    display: inline;
+    position: absolute;
+}
+
+.maximo {
+    margin-top: 410px;
+    display: inline;
+}
+
+.keyboard-row {
+    margin-top: 160px;
+    margin-left: 100px; 
+    position: absolute;
+    display: inline;
+}
+.keyboard-row1 {
+    margin-top: 200px; 
+    margin-left: 100px; 
+    position: absolute;
+    display: inline;
+}
+.keyboard-row2 {
+    margin-top: 240px;
+    margin-left: 160px; 
+    position: absolute;
+    display: inline;
+}
+
+.empezar{
+position: absolute;
+padding: 24px;
+gap: 8px;
+width: 332px;
+height: 67px;
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+/* Inside auto layout */
+display: inline;
+text-align: center;
+margin-top: 450px;
+margin-left: 300px;
+}
+
+.cancelar{
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+    display: inline;
+    margin-top: 450px;
+    margin-left: 10px;
+    border-radius: 24px;
+    margin-left: 650px;
+}
+
+#guiones {
+    margin-top: 320px;
+    margin-left: 310px;
+    background-color: rgb(252, 252, 252);
+    width: 800px;
+    height: 20px;
+    border-color: aliceblue;
+    display:inline;
+    position: absolute;
+    font-size: 4em;
+    
+}
+
+.erradas {
+    margin-top: 290px;
+    margin-left: 310px;
+    background-color: rgb(233, 101, 101);
+    position: absolute;
+    color: black;
+    font-size: large;
+}
+
+.dibujo {
+    margin-top: 0px;
+    margin-left: 800px;
+    display: inline;
+}

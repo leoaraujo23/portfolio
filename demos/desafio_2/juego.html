@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado!!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/juego.css">
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <img class="logo" src="img/Logo.png" alt="Logo">
+    <div class="padre">
+        <h1>Ingrese una palabra</h1>
+      <p id="guiones"> </p>
+        <div class="maximopad">
+            <i class='bx bxs-alarm-exclamation'></i><p class="maximo">Máx. 8 caracteres</p>
+        </div>
+        <form action="juego.html">
+            <button class="empezar">Guardar y empezar</button>
+        </form>
+        <br>
+        <form action="index.html">
+            <button class="cancelar">Cancelar</button>
+        </form>
+        <div class="dibujo">
+            <img id="muneco"  alt="" src=""/>
+        </div>
+    
+        <div class="keyboard-row">
+            <button type="button" class="btn btn-primary" value="Q">Q</button>
+            <button type="button" class="btn btn-primary" value="W">W</button>
+            <button type="button" class="btn btn-primary" value="E">E</button>
+            <button type="button" class="btn btn-primary" value="R">R</button>
+            <button type="button" class="btn btn-primary" value="T">T</button>
+            <button type="button" class="btn btn-primary" value="Y">Y</button>
+            <button type="button" class="btn btn-primary" value="U">U</button>
+            <button type="button" class="btn btn-primary" value="I">I</button>
+            <button type="button" class="btn btn-primary" value="O">O</button>
+            <button type="button" class="btn btn-primary" value="P">P</button>
+        </div>
+        <div class="keyboard-row1">
+            <button type="button" class="btn btn-primary" value="A">A</button>
+            <button type="button" class="btn btn-primary" value="S">S</button>
+            <button type="button" class="btn btn-primary" value="D">D</button>
+            <button type="button" class="btn btn-primary" value="F">F</button>
+            <button type="button" class="btn btn-primary" value="G">G</button>
+            <button type="button" class="btn btn-primary" value="H">H</button>
+            <button type="button" class="btn btn-primary" value="J">J</button>
+            <button type="button" class="btn btn-primary" value="K">K</button>
+            <button type="button" class="btn btn-primary" value="L">L</button>
+            <button type="button" class="btn btn-primary" value="Ñ">Ñ</button>
+        </div>
+        <div class="keyboard-row2">
+            <button type="button" class="btn btn-primary" value="Z">Z</button>
+            <button type="button" class="btn btn-primary" value="X">X</button>
+            <button type="button" class="btn btn-primary" value="C">C</button>
+            <button type="button" class="btn btn-primary" value="V">V</button>
+            <button type="button" class="btn btn-primary" value="B">B</button>
+            <button type="button" class="btn btn-primary" value="N">N</button>
+            <button type="button" class="btn btn-primary" value="M">M</button>
+        </div>
+        <div id="letras_erradas" class="erradas"></div>
+    </div>
+    <script src="js/llenado.js"></script>
+    
+
+</body>
+</html>
